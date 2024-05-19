@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 10px;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.diagram_container{
+height: 30%;
+width: 30%;
+background-color: blue;
+
+}
+.legend_container{
+height: 30%;
+width: 30%;
+background-color: cornflowerblue;
+}
+.input_container{
+height: 30%;
+width: 30%;
+background-color: darkorange;
+}
